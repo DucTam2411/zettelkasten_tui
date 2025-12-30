@@ -1,0 +1,30 @@
+{
+  "name": "Zettelkasten_alternative",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_NO_READLINE=1 tsx --watch index.tsx",
+    "build": "tsc",
+    "start": "tsx index.tsx"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.0",
+  "dependencies": {
+    "@mishieck/ink-titled-box": "^0.3.0",
+    "dayjs": "^1.11.19",
+    "gray-matter": "^4.0.3",
+    "ink": "^6.6.0",
+    "ink-picture": "^1.3.3",
+    "react": "^19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "@types/react": "^19.2.7",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
